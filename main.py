@@ -13,7 +13,7 @@ async def root():
 
 
 def send_email(subject, message, to_address):
-    from_address = 'your_outlook_email@example.com'
+    from_address = 'luisten94@hotmail.com'
     password = os.getenv("OUTLOOK_EMAIL_PASS")  # Make sure you have this environment variable set
     msg = MIMEMultipart()
     msg['From'] = "SmartBids.ai - Email verification <" + from_address + ">"

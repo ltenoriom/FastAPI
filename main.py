@@ -11,7 +11,9 @@ import os
 from dotenv import load_dotenv
 from pymongo import MongoClient
 
-load_dotenv(".env")
+dotenv_path = "/Users/luistenorio/Documents/Software Developer/Build a Generative AI Micro-SaaS App with Python & Streamlit/FastAPI/.env"
+
+load_dotenv(dotenv_path)
 
 app = FastAPI()
 
